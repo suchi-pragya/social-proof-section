@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href=".images/favicon-32x32.png"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Frontend Mentor | Social proof section</title>
+    <style>
+      .attribution {
+      position: relative;
+      bottom: 0;
+      color: rgb(29, 28, 31);
+      width: 50%;
+      font-size: 11px;
+      margin-top: 200px;
+        text-align: center;
+      align-self: bottom;
+      padding: 10px;
+      background-color: white;
+    }
+    footer {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      height: 100px;
+      bottom: 0;
+      background-color: white;
+    }
+      * {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #fff;
+    background-image: url("images/bg-pattern-top-desktop.svg");
+    font-family: 'Spartan', sans-serif;
+    font-size: 15px;
+    align-items: center;
+}
+
+.container {
+    width: 80%;
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-top: 130px;
+  
+  
+}
+
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    flex-wrap: wrap;
+}
+
+.top h1 {
+    color: hsl(300, 43%, 22%);
+    font-size: 2.5rem;
+     margin-bottom: 1rem;
+     font-weight: 700;
+     
+     
+}
+
+.top p {
+  color: hsl(303, 10%, 53%);
+    font-size: .9rem;
+}
+
+.customer-rating {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #F7F2F8;
+    padding: .7rem 1.5rem;
+    margin-bottom: .8rem;
+    font-size: .7rem;
+    
+    align-items: center;
+    border-radius: 10px;
+}
+
+.ratings-img {
+    margin-right: 1rem;
+
+}
+
+.rating-2nd {
+    margin-left: 2rem;
+    
+}
+
+.rating-3rd {
+    margin-left: 4rem;
+    
+    
+}
+
+.bottom-rating {
+    margin-top: 50px;
+}
+
+.rating-card {
+    display: flex;
+    justify-content: center;
+    
+    /* margin-right: 1rem; */
+}
+    
+.card {
+    width: 300px;
+    height: 150px;
+    background-color: #511F50 ;
+    margin-right: 1rem;
+    padding: 20px 15px;
+    border-radius: 8px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    
+}
+
+.profile img {
+    width: 50px;
+    height: auto;
+    border-radius: 100px;
+    margin-right: 1rem;
+}
+
+.profile h3 {
+    font-size: .7rem;
+    color: #fff;
+    margin-bottom: 3px;
+}
+
+.profile h5{
+    font-size: .7rem;
+    color:  hsl(303, 10%, 53%);
+}
+
+.review p {
+    font-size: .7rem;
+    color:  #FFF0FF;
+    margin-top: 10px;
+    font-weight: 500;
+    line-height: 1.1rem;
+}
+
+.rating-card-2 {
+    margin-top: 1rem;
+    /* justify-content: right 4px; */
+}
+
+.rating-card-3 {
+    margin-top: 2rem;
+    /* justify-content: right; */
+
+}
+
+.bottom {
+    background-image: url("images/bg-pattern-bottom-desktop.svg");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+@media (max-width: 375px) {
+    .top h1 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+        text-align: center;
+        
+    }
+    .top p {
+        font-size: 1rem;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .rating-2nd {
+        margin-left: 0;
+    }
+    .rating-3rd {
+        margin-left: 0;
+        
+    }
+    .ratings-img {
+        margin-right: 0;
+    }
+    .customer-rating  {
+        justify-content: center;
+    }
+    .rating-card {
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 0;
+    }
+    .card {
+        width: 100%;
+        margin-top: 1rem;
+        
+    }
+
+    .bottom-rating  {
+        margin-top: 0;
+        margin-bottom: 1rem;
+    }
+}
+    </style>
+  </head>
+  <body>
+
+    <div class="container">
+      <div class="top">
+         <div class="heading"> 
+          <h1>10,000+ of our<br> users love our<br> products.</h1>
+          <p>We only provide great products combined with excellent <br>customer service.
+            See what our satisfied customers are <br>saying about our services. </p>
+         </div> 
+  
+        <div class="ratings">
+          <div class="rating-1st">
+            <div class="customer-rating">
+              <div class="ratings-img">
+                <img src="images/icon-star.svg" alt="star">
+                <img src="images/icon-star.svg" alt="star">
+                <img src="images/icon-star.svg" alt="star">
+                <img src="images/icon-star.svg" alt="star">
+                <img src="images/icon-star.svg" alt="star">
+              </div>
+              <div class="1st-rating-text">
+                <h3>Rated 5 Stars in Reviews</h3>
+              </div>
+            </div>
+          </div>
+  
+          <div class="rating-2nd">
+            <div class="customer-rating">
+              <div class="ratings-img">
+                <img src="images/icon-star.svg" alt="star">
+                <img src="images/icon-star.svg" alt="star">
+                <img src="images/icon-star.svg" alt="star">
+                <img src="images/icon-star.svg" alt="star">
+                <img src="images/icon-star.svg" alt="star">
+              </div>
+              <div class="2nd-rating-text">
+                <h3>Rated 5 Stars in Report Guru</h3>
+              </div>
+            </div>
+          </div>
+  
+          <div class="rating-3rd">
+            <div class="customer-rating">
+              <div class="ratings-img">
+                <img src="images/icon-star.svg" alt="star">
+                <img src="images/icon-star.svg" alt="star">
+                <img src="images/icon-star.svg" alt="star">
+                <img src="images/icon-star.svg" alt="star">
+                <img src="images/icon-star.svg" alt="star">
+              </div>
+              <div class="3rd-rating-text">
+                <h3>Rated 5 Stars in BestTech</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="bottom-rating">
+        <div class="rating-card">
+          <div class="rating-card-1 card">
+            <div class="profile">
+              <div class="profile-img">
+                <img src="images/image-colton.jpg" alt="colton">
+              </div>
+              <div class="proile-detail">
+                <h3>Colton Smith </h3>
+                <h5>Verified Buyer</h5>
+              </div>
+            </div>
+            <div class="review">
+              <p>"We needed the same printed design as<br> the one we had ordered a week prior.
+                Not<br>  only did they find the original order, but<br>  we also received it in time.
+                Excellent!"</p>
+            </div>
+          </div>
+
+          <div class="rating-card-2 card">
+            <div class="profile">
+              <div class="profile-img">
+                <img src="images/image-irene.jpg" alt="colton">
+              </div>
+              <div class="proile-detail">
+                <h3>Irene Roberts</h3>
+                <h5>Verified Buyer</h5>
+              </div>
+            </div>
+            <div class="review">
+              <p>"Customer service is always excellent and <br>very quick turn around. Completely<br>
+                delighted with the simplicity of the <br>purchase and the speed of delivery."</p>
+            </div>
+          </div>
+
+          <div class="rating-card-3 card">
+            <div class="profile">
+              <div class="profile-img">
+                <img src="images/image-anne.jpg" alt="colton">
+              </div>
+              <div class="proile-detail">
+                <h3>Anne Wallace</h3>
+                <h5>Verified Buyer</h5>
+              </div>
+            </div>
+            <div class="review">
+              <p>"Put an order with this company and can <br>only praise them for the very high<br>
+                standard. Will definitely use them again <br>and recommend them to everyone!"</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <footer>
+      <p class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="#">Suchi pragya</a>.
+      </p>
+    </footer>
+  </body>
+</html>
